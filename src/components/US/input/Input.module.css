@@ -1,0 +1,7 @@
+.field{
+    width: 100%;
+    border: 1px solid teal;
+    height: 40px;
+    margin: 5px 0;
+    padding-left: 10px;
+}

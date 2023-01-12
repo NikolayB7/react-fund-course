@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root{
+    width: 800px;
+   
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background: rgb(102, 102, 102);
+    color: #fff;
+    font-family: Arial;
+}
+
+button{
+    background: rgb(7, 202, 202);
+    padding: 5px 10px;
+    border: none;
+}
