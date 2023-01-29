@@ -1,14 +1,14 @@
-import React,{useState} from 'react';
-import Button from "./US/button/Button";
-import Input from "./US/input/Input";
-const PostForm = ({create}) => {
+import { useState } from 'react';
+import Button from "./UI/button/Button";
+import Input from "./UI/input/Input";
+const PostForm = ({ create }) => {
 
     const [post, setPost] = useState({ title: '', description: '' })
 
     const addNewPost = () => {
-      const newPost ={ ...post, id: Math.random() }
-      create(newPost)
-      setPost({ title: '', description: '' })
+        const newPost = { ...post, id: Math.random() }
+        create(newPost)
+        setPost({ title: '', description: '' })
     }
 
 
